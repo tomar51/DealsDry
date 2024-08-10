@@ -41,7 +41,7 @@ public class ChromeBrowserURL {
 
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            File destFile = new File("./AllChromeURL/" + fileNames[i]);
+            File destFile = new File("./ChromeScreenShot/" + fileNames[i]);
             FileHandler.copy(srcFile, destFile);
 
             Thread.sleep(2000);
