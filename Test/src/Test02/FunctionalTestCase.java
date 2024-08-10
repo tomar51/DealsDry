@@ -48,6 +48,8 @@ public class FunctionalTestCase {
          File destFile = new File("./Test02ScreenshotFolder/Screenshot.jpeg");
          FileHandler.copy(srcFile, destFile);
 
+		driver.quit();
+
 
 
 		
